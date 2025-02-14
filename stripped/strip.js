@@ -19,7 +19,7 @@ html = html
     .replace(/<label[\s\S]*?>[\s\S]*?<\/label>/g, "") // Remove label elements
     .replace(">Hang Extension!</button>", ">Start!</button>") // Changes wording of kill extension button to be less obvious to someone just glancing at a user's screen.
     .replace(">Kill Extension!</button>", ">Finish!</button>") // Changes wording of kill extension button to be less obvious to someone just glancing at a user's screen.
-    .replace("<footer>", "<footer><a href='https://github.com/Blobby-Boi/'>Link to Creator</a>") // Add back link to Blobby Boi's Github
+    .replace("<footer>", "<footer><a href=' '>mADE by NEXUS-REFinED. </a>") // Add back link to Blobby Boi's Github
 
     // Only leave capital letters inside the extension names
     .replace(/(?<=").*?(?=": "chrome-extension:\/\/)/gi, (matchedText)=>{
